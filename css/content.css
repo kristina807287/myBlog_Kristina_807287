@@ -3,6 +3,7 @@ body {
     background-color: #fff;
     background: linear-gradient(#fff, #EAEAEA , #FAEDF0, #E2C2B9);  
     background-attachment: fixed;  
+    display: inline-block;
     
 }
 #container {
@@ -54,6 +55,56 @@ nav li a:hover {
     color: #998CEB;
 }
 
+                                /* --- TRAVEL PAGE --- */
+/* --- MAIN ---- */
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: #1B2A49;    
+    border: solid #D4AC2B; 
+    width: 90%;  
+    margin-left: auto;
+    margin-right: auto;
+    display: blockxs;    
+   
+}
+
+section {
+    border: solid #D4AC2B;
+    float: right;
+    width: 75%;
+}
+
+section h4 {
+    text-align: center;
+    color: #4B3869;
+    margin-top: 0;
+}
+section p {
+    font-size: medium;
+    color: #4B3869;
+}
+
+.boracayimg1 {
+    width: 30%;
+    
+}
+.boracayimg2 {
+    width: 30%;
+}
+.boracayimg3 {
+    width: 25%;
+}
+/* --- ARTICLE --- */
+article {
+    width: 23%;
+    border: solid #D4AC2B;    
+    margin-top: 0;
+    float: left;
+    
+}
+
  /* --- FOOTER --- */
  footer {
     width: 100%;
@@ -62,9 +113,12 @@ nav li a:hover {
     margin-right: auto;
     text-align: center;    
     padding: 1em;
+    display: block;
+    overflow: auto;
 }
-footer a {
+footer p, a {
     color: #D4AC2B;
+    font-weight: bold;
 }
 footer a:hover {
     color: #998CEB;

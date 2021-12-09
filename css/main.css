@@ -56,49 +56,59 @@ nav li a:hover {
     /* --- MAIN ---*/
 /* -- Contains hello greeting and collage image--- */
 main {    
-    width: 70%;
-    margin-left: 2em;
+    width: 90%;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
+    
+}
+section {
+    width: 75%;
+   
+    float: left;
+    margin-bottom: 3em;    
 }
 .hello-img {
-    width: 10%;
-    margin-left: 2.5em;
+    width: 12%;   
+    
 }
-.home-intro p {
+section p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    color: #1F1D36;
-    margin-left: 2em;
-    margin-bottom: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
 }
 .home-img {
-    width: 50%;
-    margin-left: 10em;
+    width: 60%;
+    margin-left: 15%;
     border-radius: 1em;
 }
+
 
     /* --- ARTICLE, ASIDE --- */
 article {
     float: right;
-    width: 25%;
-    margin-top: 1em;
+    width: 23%;    
+    
    
 }
-.aside-1 {
-    width: 80%;       
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
-    padding-top: .5em;
+.aside-1 {       
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1em;    
+    padding: .5em;
     padding-bottom: 1.5em;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     color: #D4AC2B;
     text-align: center;
     background-color: #F7DAD9;
     /*border: solid #1F1D36;*/
     border-radius: 1em 0;
+    box-shadow: 1em 1em 1em; 
     
+}
+.aside-1 p {
+    font-weight: bolder;
 }
 .aside-1 a{   
     text-decoration: none;   
@@ -110,9 +120,10 @@ article {
 
 }
 .aside-2 {
-    width: 80%;       
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    padding-top: .5em;
+       
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em; 
+    padding: .5em;
     padding-bottom: 1.5em;
     margin-right: auto;
     margin-left: auto;    
@@ -121,14 +132,19 @@ article {
     background-color: #F7DAD9;
     /*border: solid #1F1D36;*/
     display: block;
-    border-radius: 0 1em;   
+    border-radius: 0 1em; 
+    box-shadow: 1em 1em 1em;    
 
+}
+.aside-2 p {
+    font-weight: bold;
 }
 .aside-2 a{
     padding-bottom: 2em;
     text-decoration: none;
     color: #D4AC2B;
-    margin-bottom: 2em;   
+    margin-bottom: 2em; 
+      
     
 }
 .aside-2 a:hover {
@@ -147,6 +163,7 @@ table {
     font-size: 1em;
     background-color: #E2C2B9;
     color: #7267CB;
+   
       
     
 }
@@ -171,7 +188,7 @@ footer {
     text-align: center;    
     padding: 1em;
 }
-footer a {
+footer p, a {
     color: #D4AC2B;
 }
 footer a:hover {
