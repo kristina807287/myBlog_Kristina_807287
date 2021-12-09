@@ -1,0 +1,181 @@
+/* --- BODY --- */
+body {
+    background-color: #fff;
+    background: linear-gradient(#fff, #EAEAEA , #FAEDF0, #E2C2B9);  
+    background-attachment: fixed;  
+    
+}
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+img {
+    max-width: 100%;
+    
+}
+header img {    
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: .3em;   
+    border-radius: 1.2em;
+    display: block;
+}
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 1.5em;    
+    font-weight: lighter;    
+    text-align: center;
+    margin-top: .5em; 
+    margin-bottom: 2em;  
+    
+}
+nav ul {    
+    margin-top: .5em;    
+    padding: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;    
+    padding: 0;
+    margin-right: 4em;
+    
+}
+nav li a {
+    text-decoration: none;
+    white-space: pre-wrap;
+    color:#D4AC2B;
+}
+
+nav li a:hover {
+    color: #998CEB;
+}
+    /* --- MAIN ---*/
+/* -- Contains hello greeting and collage image--- */
+main {    
+    width: 70%;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+.hello-img {
+    width: 10%;
+    margin-left: 2.5em;
+}
+.home-intro p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #1F1D36;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+.home-img {
+    width: 50%;
+    margin-left: 10em;
+    border-radius: 1em;
+}
+
+    /* --- ARTICLE, ASIDE --- */
+article {
+    float: right;
+    width: 25%;
+    margin-top: 1em;
+   
+}
+.aside-1 {
+    width: 80%;       
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    color: #D4AC2B;
+    text-align: center;
+    background-color: #F7DAD9;
+    /*border: solid #1F1D36;*/
+    border-radius: 1em 0;
+    
+}
+.aside-1 a{   
+    text-decoration: none;   
+    color: #D4AC2B; 
+    
+}
+.aside-1 a:hover {
+    color: #998CEB;
+
+}
+.aside-2 {
+    width: 80%;       
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    margin-right: auto;
+    margin-left: auto;    
+    color: #D4AC2B;
+    text-align: center;
+    background-color: #F7DAD9;
+    /*border: solid #1F1D36;*/
+    display: block;
+    border-radius: 0 1em;   
+
+}
+.aside-2 a{
+    padding-bottom: 2em;
+    text-decoration: none;
+    color: #D4AC2B;
+    margin-bottom: 2em;   
+    
+}
+.aside-2 a:hover {
+    color: #998CEB;
+
+}
+    /* --- TABLE --- */
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border: solid #D4AC2B;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: #E2C2B9;
+    color: #7267CB;
+      
+    
+}
+caption {
+    font-weight: bolder;
+    margin-bottom: .5em;
+}
+th, td {
+    border: solid #D4AC2B;
+    padding: .5em;
+    text-align: center;   
+}
+td {
+    font-size: .9em;
+}
+    /* --- FOOTER --- */
+footer {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+    padding: 1em;
+}
+footer a {
+    color: #D4AC2B;
+}
+footer a:hover {
+    color: #998CEB;
+}
+
+
