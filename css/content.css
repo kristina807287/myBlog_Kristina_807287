@@ -395,22 +395,25 @@ article {
 
 .about .aside-1 img {
     width: 15%;
-    padding-right: 1.5em;
+    padding-right: 1em;
 }
-.about .aside-2 a {
-   
-    font-size: 1.2em;
+.about .aside-2 a {   
+    font-size: .9em;
     text-decoration: underline;
 }
 .about .aside-2 img{
     width: 10%;
-    display: block;
-    
+    display: block; 
+    margin-bottom: .5em; 
      
 
 }
 .about p {
     font-size: medium;
+}
+.about-me img {
+    width: 15%;
+    border-radius: 1em;
 }
 
  /* --- FOOTER --- */

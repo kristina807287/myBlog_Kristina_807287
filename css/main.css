@@ -66,16 +66,20 @@ main {
 section {
     width: 75%;   
     float: left;
-    margin-bottom: 3em;    
+    margin-bottom: 5em;    
 }
-.hello-img {
-    width: 12%;   
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5D54A4;
     
 }
 section p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     margin-bottom: 1.5em;
+    color:#5D54A4;
+ 
+    
 }
 .home-img {
     width: 60%;
@@ -188,7 +192,7 @@ article {
 
 }
 .aside-2 img {
-    width: 65%;
+    width: 55%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 1.5em;
