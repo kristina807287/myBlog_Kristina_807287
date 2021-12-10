@@ -63,39 +63,41 @@ main {
     margin-top: 3em;
     
     
+    
 }
 /* -- Contains hello greeting and collage image--- */
 section {
     width: 75%;   
     float: left;
     margin-bottom: 5em;
-        
+     
 }
 h2 {    
     color: #5D54A4;
     margin-top: 0%;
+    margin-left: 2em;
     
 }
 section p {    
     font-size: 1.2em;
+    margin-left: 2em;
     margin-bottom: 1.5em;
     color:#5D54A4;
- 
-    
+   
 }
 .home-img {
     width: 60%;
     margin-left: 15%;
     border-radius: 1em;
+    margin-bottom: 5em;
 }
 
 
     /* --- ARTICLE, ASIDE --- */
 article {
     float: right;
-    width: 23%;    
+    width: 23%; 
     
-   
 }
 aside {
     display: block;
@@ -262,4 +264,9 @@ footer a:hover {
 
 /* -------- MEDIA QUERY ---------- */
 
+/* -- for Desktop -- */
+
+/* -- for Tablet -- */
+
+/* -- for Phone -- */
 
