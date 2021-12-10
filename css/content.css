@@ -4,14 +4,14 @@ body {
     background: linear-gradient(#fff, #EAEAEA , #FAEDF0, #E2C2B9);  
     background-attachment: fixed;  
     display: inline-block;
-    border: solid #D4AC2B;
+    
     
 }
 #container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border: solid #D4AC2B;
+    
     
 }
 img {
@@ -22,7 +22,7 @@ header {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border: solid #D4AC2B;
+    
 }
 header img {    
     width: 98%;
@@ -39,7 +39,7 @@ nav {
     text-align: center;
     margin-top: .5em; 
     margin-bottom: 2em;  
-    border: solid #D4AC2B;
+    
     
 }
 nav ul {    
@@ -64,7 +64,7 @@ nav li a:hover {
     color: #998CEB;
 }
 
-                                /* --- TRAVEL PAGE --- */
+          /* --- TRAVEL PAGE --- */
 /* --- MAIN ---- */
 
 main {
@@ -76,14 +76,14 @@ main {
     margin-right: auto;
     margin-top: 2em;
     display: block;
-    border: solid #D4AC2B;    
+   
    
 }
 /* This is Section */
 .topic1 {   
     float: right;
     width: 70%; 
-    border: solid #D4AC2B;
+   
     
 }
 section h4 {
@@ -206,11 +206,7 @@ h5 {
     text-align: center;
     font-weight: bold;
 }
-.divider {
-    color: #D4AC2B;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
+
 #hkdisneyland {
     margin-top: 3em;
 }
@@ -225,9 +221,9 @@ h5 {
 
 /* --- ARTICLE --- */
 article {
-    width: 23%;  
-    float: left;
-    border: solid #D4AC2B;    
+    width: 24%;  
+    float: left;   
+    display: block;   
 } 
   
 .aside-1 {       
@@ -386,7 +382,7 @@ article {
 
 }
 .hobbies .aside-1 img {
-    width: 45%;
+    width: 50%;
    
 }
 .hobbies .aside-2 img{
@@ -396,19 +392,25 @@ article {
 
 }
 /* ---- ABOUT ----*/
+
 .about .aside-1 img {
-    width: 10%;
-    display: block;
-    margin-bottom: 1em;
+    width: 15%;
+    padding-right: 1.5em;
 }
-.about .aside-1 a {
+.about .aside-2 a {
+   
     font-size: 1.2em;
     text-decoration: underline;
 }
 .about .aside-2 img{
-    width: 15%;
-    padding-right: 1.5em;   
+    width: 10%;
+    display: block;
+    
+     
 
+}
+.about p {
+    font-size: medium;
 }
 
  /* --- FOOTER --- */
