@@ -18,14 +18,15 @@ img {
     max-width: 100%;
     
 }
+
 header {
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
 }
+
 header img {    
-    width: 98%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto; 
     margin-top: .3em;   
@@ -71,7 +72,7 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     color: #1B2A49;       
-    width: 90%;  
+    width: 95%;  
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -221,10 +222,13 @@ h5 {
 
 /* --- ARTICLE --- */
 article {
-    width: 24%;  
+    width: 23%;  
     float: left;   
     display: block;   
 } 
+aside {
+    display: block;
+}
   
 .aside-1 {       
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -278,9 +282,7 @@ article {
     margin-left: auto;    
     color: #D4AC2B;
     text-align: center;
-    background-color: #F7DAD9;
-    /*border: solid #1F1D36;*/
-    display: block;
+    background-color: #F7DAD9;  
     border-radius: 1em 0; 
     box-shadow: 1em 1em 1em;    
 
@@ -293,9 +295,7 @@ article {
     text-decoration: none;
     color: #D4AC2B;
     margin-bottom: 2em; 
-    font-size: small;
-      
-    
+    font-size: .1em;
 }
 .aside-2 a:hover {
     color: #998CEB;
@@ -313,7 +313,6 @@ article {
 .aside-2 img:hover {
     opacity: 1;
     transition: 0.3s ease-in-out;
-
 }
 
 /* --- BACK TO HOME PAGE --- */
@@ -321,20 +320,30 @@ article {
     float: right;
     font-size: .6em;
     font-weight: bold;
+    margin-top: 5em;
 }
 .backtohome:hover {
     color: #998CEB;
     
 }
+
+
+/* TRAVEL*/
 .travel .aside-2 img {
-    width: 10%;
-    display: block;
-    margin-bottom: 1em;
+    width: 15%;
+    margin-top: 0%;
+    
 }
 .travel .aside-2 a {
-    font-size: 1.2em;
-    text-decoration: underline;
+   font-size: small;    
 }
+.travel .aside-2 .p1 {
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+}
+
+
 /* ----- HOBBIES ---- */
 .mangofloat-img1 {
     width: 30%;
@@ -405,11 +414,12 @@ article {
     width: 10%;
     display: block; 
     margin-bottom: .5em; 
-     
 
 }
-.about p {
-    font-size: medium;
+.about .aside-2 .p1 {
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
 }
 .about-me img {
     width: 15%;
@@ -433,3 +443,5 @@ footer p, a {
 footer a:hover {
     color: #998CEB;
 }
+
+/* -------- MEDIA QUERY -------- */
