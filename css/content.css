@@ -4,17 +4,25 @@ body {
     background: linear-gradient(#fff, #EAEAEA , #FAEDF0, #E2C2B9);  
     background-attachment: fixed;  
     display: inline-block;
+    border: solid #D4AC2B;
     
 }
 #container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border: solid #D4AC2B;
     
 }
 img {
     max-width: 100%;
     
+}
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #D4AC2B;
 }
 header img {    
     width: 98%;
@@ -31,6 +39,7 @@ nav {
     text-align: center;
     margin-top: .5em; 
     margin-bottom: 2em;  
+    border: solid #D4AC2B;
     
 }
 nav ul {    
@@ -66,13 +75,16 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 4em;
-    display: block;    
+    display: block;
+    border: solid #D4AC2B;    
    
 }
 /* This is Section */
-.topic1-boracay {   
+.topic1 {   
     float: right;
     width: 70%; 
+    border: solid #D4AC2B;
+    
 }
 section h4 {
     text-align: center;
@@ -213,7 +225,7 @@ h5 {
 
 /* --- ARTICLE --- */
 article {
-    width: 25%;  
+    width: 23%;  
     float: left;    
 } 
   
@@ -239,7 +251,7 @@ article {
     margin-left: auto;
     margin-top: 1em;
     border-radius: 1em;   
-    opacity: .6; 
+    opacity: .8; 
 }
 
 .aside-1 img:hover {
@@ -252,15 +264,15 @@ article {
 }
 .aside-1 a{   
     text-decoration: none;   
-    color: #D4AC2B; 
+    color: #D4AC2B;
+    font-size: small; 
     
 }
 .aside-1 a:hover {
     color: #998CEB;
 
 }
-.aside-2 {
-       
+.aside-2 {       
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .5em; 
     padding: .5em;
@@ -284,6 +296,7 @@ article {
     text-decoration: none;
     color: #D4AC2B;
     margin-bottom: 2em; 
+    font-size: small;
       
     
 }
@@ -291,6 +304,21 @@ article {
     color: #998CEB;
 
 }
+.aside-2 img {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5em;
+    border-radius: 1em;   
+    opacity: .8; 
+}
+
+.aside-2 img:hover {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+
+}
+
 /* --- BACK TO HOME PAGE --- */
 .backtohome {
     float: right;
@@ -301,10 +329,86 @@ article {
     color: #998CEB;
     
 }
+.travel .aside-2 img {
+    width: 10%;
+    display: block;
+    margin-bottom: 1em;
+}
+.travel .aside-2 a {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
 /* ----- HOBBIES ---- */
+.mangofloat-img1 {
+    width: 40%;
+    border: solid #D4AC2B;
+    border-radius: .5em;
+    margin-left: 25%;
+    margin-bottom: .5em;
 
+}
+.mango-recipe p {
+    font-size: medium;
+    margin-left: 4em;
+}
+.mango-recipe ul {
+    font-size: medium;
+    list-style-type: square;
+    color: #5D54A4;
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+.mango-recipe ol {
+    font-size: medium;    
+    color: #5D54A4;    
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.mango-recipe ol li {
+    padding: .5em;
+}
+.figma-design {
+    margin-top: 2em;
+}
+.figma-design img {
+    width: 55%;
+    border: solid #D4AC2B;
+    margin-left: 22%;
+    margin-bottom: 2em;
+}
+.figma-design p {
+    text-align: center;
+}
+.figma-design a:hover {
+    color: #998CEB;
 
+}
+.hobbies .aside-1 img {
+    width: 45%;
+   
+}
+.hobbies .aside-2 img{
+    width: 15%;
+    padding-right: 1.5em;
+    
 
+}
+/* ---- ABOUT ----*/
+.about .aside-1 img {
+    width: 10%;
+    display: block;
+    margin-bottom: 1em;
+}
+.about .aside-1 a {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+.about .aside-2 img{
+    width: 15%;
+    padding-right: 1.5em;   
+
+}
 
  /* --- FOOTER --- */
  footer {
