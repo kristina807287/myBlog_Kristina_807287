@@ -226,7 +226,8 @@ h5 {
 /* --- ARTICLE --- */
 article {
     width: 23%;  
-    float: left;    
+    float: left;
+    border: solid #D4AC2B;    
 } 
   
 .aside-1 {       
@@ -340,10 +341,10 @@ article {
 }
 /* ----- HOBBIES ---- */
 .mangofloat-img1 {
-    width: 40%;
+    width: 30%;
     border: solid #D4AC2B;
     border-radius: .5em;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-bottom: .5em;
 
 }
