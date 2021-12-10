@@ -72,7 +72,7 @@ main {
 /* This is Section */
 .topic1-boracay {   
     float: right;
-    width: 75%; 
+    width: 70%; 
 }
 section h4 {
     text-align: center;
@@ -301,6 +301,11 @@ article {
     color: #998CEB;
     
 }
+/* ----- HOBBIES ---- */
+
+
+
+
  /* --- FOOTER --- */
  footer {
     width: 100%;
