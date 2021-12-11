@@ -70,6 +70,7 @@ section {
     width: 75%;   
     float: left;
     margin-bottom: 5em;
+   
      
 }
 h2 {    
@@ -83,20 +84,21 @@ section p {
     margin-left: 2em;
     margin-bottom: 1.5em;
     color:#5D54A4;
+    
    
 }
 .home-img {
-    width: 60%;
+    width: 70%;
     margin-left: 15%;
-    border-radius: 1em;
-    margin-bottom: 5em;
+    border-radius: 1em;  
 }
 
 
     /* --- ARTICLE, ASIDE --- */
 article {
     float: right;
-    width: 23%; 
+    width: 0;
+   
     
 }
 aside {
@@ -248,13 +250,12 @@ td {
 }
     /* --- FOOTER --- */
 footer {
-    width: 100%;
-    display: block;
+    width: 100%;   
     margin-left: auto;
     margin-right: auto;
     text-align: center;    
-    padding: 1em;
 }
+
 footer p, a {
     color: #D4AC2B;
 }
@@ -265,8 +266,226 @@ footer a:hover {
 /* -------- MEDIA QUERY ---------- */
 
 /* -- for Desktop -- */
-
 /* -- for Tablet -- */
+@media only screen and (min-width: 801px) {
+    article {
+        float: right;
+        width: 23%;         
+    } 
+    .mobile-banner {
+        display: none;
+    } 
+    table{
+        margin-bottom: 3em;
+    }
 
-/* -- for Phone -- */
+}
+
+/* -- for Phone & Tablet-- */
+@media only screen and (max-width: 800px) {
+    #container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;        
+    }   
+    
+    nav li {
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+      
+    }
+    nav li a {
+        text-align: center;
+        margin-left: 0%;
+        padding: 0;
+
+    }    
+    .desktop {
+        display: none;
+    }
+    footer {      
+        float: left;
+    }
+    article { 
+        width: 20%;
+        float: right;        
+        
+    }
+    .topic1 {       
+        margin-bottom: 1.5em;
+    }
+    .topic1 img {
+        width: 80%;
+        margin-left: 3em;
+        margin-right: auto;
+    } 
+    .aside-0 {
+        box-shadow: none;
+    }
+    .aside-1 {
+        box-shadow: none;
+    }
+    
+    .aside-2 {
+        box-shadow: none;
+    }
+    .bora-img, .mango-img {
+        display: none;
+    }
+    .mobile-banner {
+        width: 80%;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+    
+   
+}
+
+
+
+/* phone only (small screen)*/
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #fff;
+        background: linear-gradient(#fff, #EAEAEA , #FAEDF0);  
+        background-attachment: fixed;  
+        
+    }
+    #container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #container img {
+        margin-top: 1em;
+    }
+    main {     
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }    
+    .topic1 {
+        width: 100%;
+        margin-right: auto;   
+        margin-left: auto;
+        margin-bottom: 1em;
+        
+    }
+    .topic1 p {       
+        margin-left: 0em;
+        text-align: left;
+        font-size: .8em;
+        
+    }
+    .topic1 h2{
+        margin-left:0;
+        text-align: center;
+        font-size: 1em;
+              
+    }    
+    .topic1 img {
+        margin-left: 0em;
+        width: 100%;
+        border-radius: 0%;
+       
+    }   
+    article { 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;  
+        
+    }  
+    aside {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;             
+    }
+    .aside-0 {
+        border-radius: 1em;
+        margin-bottom: 1em;
+        box-shadow: none;
+    }
+    .aside-0 p {
+        text-align: center;
+        font-size: small;
+
+    }
+    .aside-1 {
+        border-radius: 1em;
+        margin-bottom: 1em;
+        box-shadow: none;
+    }    
+    .bora-img, .mango-img {
+        display: none;
+    }
+
+    .aside-1 p, a {
+        text-align: center;
+        font-size: small;
+
+    }
+    .aside-2 {
+        border-radius: 1em;
+        box-shadow: none;
+       
+    }
+    .aside-2 p, a {
+        text-align: center;
+        font-size: small;        
+    }
+    footer{ 
+        margin-top: .5em;          
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: small;
+    }
+    
+    table {
+        display: none;
+    }    
+    .mobile-banner {        
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1em;        
+        padding: 0%;
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 0;
+        
+    }
+    
+    nav li {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;        
+        padding: 1%; 
+        margin-bottom: 1em;        
+        background-color: #F7DAD9; 
+        border-radius: 1em;     
+       
+    }    
+    nav a {
+       
+        text-align: center;
+        padding: 0%;
+        font-size: 1.2em;
+       
+     
+    }
+
+    
+}
+
 
